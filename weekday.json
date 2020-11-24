@@ -1,0 +1,64 @@
+{
+  "full": [
+    {},
+    {
+      "vi":"Thứ hai",
+      "en":"Monday"
+    },
+    {
+      "vi":"Thứ ba",
+      "en":"Tuesday"
+    },
+    {
+      "vi":"Thứ tư",
+      "en":"Wednesday"
+    },
+    {
+      "vi":"Thứ năm",
+      "en":"Thursday"
+    },
+    {
+      "vi":"Thứ sáu",
+      "en":"Friday"
+    },
+    {
+      "vi":"Thứ bảy",
+      "en":"Saturday"
+    },
+    {
+      "vi":"Chủ nhật",
+      "en":"Sunday"
+    }
+  ],
+  "short":[
+    {},
+    {
+      "vi":"T2",
+      "en":"Mo"
+    },
+    {
+      "vi":"T3",
+      "en":"Tu"
+    },
+    {
+      "vi":"T4",
+      "en":"We"
+    },
+    {
+      "vi":"T5",
+      "en":"Th"
+    },
+    {
+      "vi":"T6",
+      "en":"Fr"
+    },
+    {
+      "vi":"T7",
+      "en":"Sa"
+    },
+    {
+      "vi":"CN",
+      "en":"Su"
+    }
+  ]
+}

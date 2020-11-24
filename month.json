@@ -1,0 +1,102 @@
+{
+  "full": [
+    {
+      "vi":"Tháng 1",
+      "en":"January"
+    },
+    {
+      "vi":"Tháng 2",
+      "en":"February"
+    },
+    {
+      "vi":"Tháng 3",
+      "en":"March"
+    },
+    {
+      "vi":"Tháng 4",
+      "en":"April"
+    },
+    {
+      "vi":"Tháng 5",
+      "en":"May"
+    },
+    {
+      "vi":"Tháng 6",
+      "en":"June"
+    },
+    {
+      "vi":"Tháng 7",
+      "en":"July"
+    },
+    {
+      "vi":"Tháng 8",
+      "en":"August"
+    },
+    {
+      "vi":"Tháng 9",
+      "en":"September"
+    },
+    {
+      "vi":"Tháng 10",
+      "en":"October"
+    },
+    {
+      "vi":"Tháng 11",
+      "en":"November"
+    },
+    {
+      "vi":"Tháng 12",
+      "en":"December"
+    }
+  ],
+  "short":[
+    {
+      "vi":"Th1",
+      "en":"Jan"
+    },
+    {
+      "vi":"Th2",
+      "en":"Feb"
+    },
+    {
+      "vi":"Th3",
+      "en":"Mar"
+    },
+    {
+      "vi":"Th4",
+      "en":"Apr"
+    },
+    {
+      "vi":"Th5",
+      "en":"May"
+    },
+    {
+      "vi":"Th6",
+      "en":"Jun"
+    },
+    {
+      "vi":"Th7",
+      "en":"Jul"
+    },
+    {
+      "vi":"Th8",
+      "en":"Aug"
+    },
+    {
+      "vi":"Th9",
+      "en":"Sep"
+    },
+    {
+      "vi":"Th10",
+      "en":"Oct"
+    },
+    {
+      "vi":"Th11",
+      "en":"Nov"
+    },
+    {
+      "vi":"Th12",
+      "en":"Dec"
+    }
+  ]
+}

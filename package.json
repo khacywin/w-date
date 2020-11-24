@@ -1,0 +1,28 @@
+{
+  "name": "w-date",
+  "version": "1.0.1",
+  "description": "Model date",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khacywin/wdate.git"
+  },
+  "keywords": [
+    "date",
+    "wmtime",
+    "wdate",
+    "khacy"
+  ],
+  "author": "khacy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khacywin/wdate/issues"
+  },
+  "homepage": "https://github.com/khacywin/wdate#readme",
+  "devDependencies": {
+    "jest": "^26.1.0"
+  }
+}
