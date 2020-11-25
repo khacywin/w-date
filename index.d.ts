@@ -31,6 +31,7 @@ type formatDate =
   'Thu, DD ThangMM,YYYY hh:mm' | 
   'Thu, DD ThangMM,YYYY hh:mm:ss';
 
+export declare function now(): Date;
 export declare function identifyDate(date: w_date): Date;
 export declare function format(date: w_date, format?: formatDate): string;
 export declare function numberOfDays(date: w_date): number;

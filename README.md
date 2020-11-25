@@ -50,14 +50,14 @@
 * __date__(required) - string | object
 ```
   wdate.nextMonth('07/27/2020 8:30'); 
-  //Returns: 7
+  //Returns: Date
 ```
 
 ###### previousMonth(date)
 * __date__(required) - string | object
 ```
   wdate.previousMonth('07/27/2020 8:30'); 
-  //Returns: 5
+  //Returns: Date
 ```
 
 ###### getWeek(date)
