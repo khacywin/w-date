@@ -122,6 +122,6 @@ test('Previous month', ()=>{
 });
 
 test('Get week', ()=>{
-  let time = '07-02-2020 09:55';
-  expect(_date.getWeek(time)).toBe(27);
+  let time = '02-11-2021 09:55';
+  expect(_date.getWeek(time)).toBe(6);
 });
