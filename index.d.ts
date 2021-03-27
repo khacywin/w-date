@@ -1,4 +1,4 @@
-type w_date = Date | string;
+type w_date = Date | string | number;
 type Region = 'en' | 'vi';
 type formatDate =
   'YYYY-MM-DD' |
@@ -29,7 +29,7 @@ type formatDate =
   'TT DD ThMM,YYYY hh:mm' |
   'TT DD ThMM,YYYY hh:mm:ss' |
   'Thu, DD ThangMM,YYYY hh:mm' |
-  'Thu, DD ThangMM,YYYY hh:mm:ss';
+  'Thu, DD ThangMM,YYYY hh:mm:ss' | string;
 
 export declare function now(): Date;
 export declare function identifyDate(date: w_date): Date;
