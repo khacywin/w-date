@@ -1,4 +1,4 @@
-type w_date = Date | string;
+type w_date = Date | string | number;
 type Region = 'en' | 'vi';
 type formatDate =
   'YYYY-MM-DD' |
