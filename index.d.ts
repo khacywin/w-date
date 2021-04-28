@@ -29,7 +29,7 @@ type formatDate =
   'TT DD ThMM,YYYY hh:mm' |
   'TT DD ThMM,YYYY hh:mm:ss' |
   'Thu, DD ThangMM,YYYY hh:mm' |
-  'Thu, DD ThangMM,YYYY hh:mm:ss';
+  'Thu, DD ThangMM,YYYY hh:mm:ss' | string;
 
 export declare function now(): Date;
 export declare function identifyDate(date: w_date): Date;
@@ -46,3 +46,4 @@ export declare function getWeekdayFull(weekday: number, region?: Region): string
 export declare function getWeekdayShort(weekday: number, region?: Region): string;
 export declare function inTogetherWeek(date1: w_date, date2: w_date): boolean;
 export declare function amountDateInMonth(month: number, year?: number): number;
+export declare function diff(date1: w_date, date2: w_date, options: 'date' | 'month' | 'year');

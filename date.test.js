@@ -125,3 +125,9 @@ test('Get week', ()=>{
   let time = '02-11-2021 09:55';
   expect(_date.getWeek(time)).toBe(6);
 });
+
+test('Different date', ()=>{
+  let date1 = '02-11-2021';
+  let date2 = '10-11-2021';
+  expect(_date.diff(date1, date2, 'date')).toBe(8);
+});

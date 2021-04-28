@@ -263,28 +263,6 @@ exports.checkNow = (date) => {
  *
  * @param {date} date1
  * @param {date} date2
- * @param {day|hours|minutes|seconds} option
- */
-exports.diff = (date1, date2, option) => {
-  let _date1 = new Date(date1);
-  let _date2 = new Date(date2);
-  let diff = 0;
-
-  switch (option) {
-    case "day":
-      break;
-
-    default:
-      break;
-  }
-};
-
-/***
- * TODO
- * Difference
- *
- * @param {date} date1
- * @param {date} date2
  */
 exports.inTogetherWeek = (date1, date2) => {
   let _date1 = new Date(date1);
@@ -299,7 +277,7 @@ exports.inTogetherWeek = (date1, date2) => {
  *
  * @param {number} date1
  */
-exports.amountDateInMonth = (month, year = 1) => {
+const amountDateInMonth = (month, year = 1) => {
   if (month === 2) {
     if (year % 4 === 0 || year % 400 === 0) return 29;
     else return 28;
@@ -315,4 +293,66 @@ exports.amountDateInMonth = (month, year = 1) => {
   )
     return 31;
   else return 30;
+};
+exports.amountDateInMonth = amountDateInMonth;
+
+/**
+ * TODO
+ * Get date in year
+ */
+const amountDateInYear = (year) => {
+  if (year % 4 === 0 || year % 400 === 0) return 366;
+  else return 365;
+};
+exports.amountDateInYear = amountDateInYear;
+
+/***
+ * TODO
+ * Difference
+ *
+ * @param {date} date1
+ * @param {date} date2
+ * @param {year|month|date} option
+ */
+const amountOfDate = (date) => {
+  const y = date.getFullYear();
+  const m = date.getMonth();
+  let total = date.getDate();
+  for (let i = 1900; i < y; i++) {
+    total += amountDateInYear(i);
+  }
+
+  for (let i = 0; i < m; i++) {
+    total += amountDateInMonth(i + 1);
+  }
+
+  return total;
+};
+
+const amountOfMonth = (date) => {
+  const y = date.getFullYear();
+  let total = date.getMonth();
+  for (let i = 1900; i < y; i++) {
+    total += amountDateInYear(i);
+  }
+
+  return total;
+};
+exports.diff = (date1, date2, option) => {
+  let _date1 = new Date(date1);
+  let _date2 = new Date(date2);
+
+  switch (option) {
+    case "date":
+      return amountOfDate(_date1) - amountOfDate(_date2);
+
+    case "month":
+      return amountOfMonth(_date1) - amountOfMonth(_date2) - 1;
+
+    case "year":
+      return _date1.getFullYear() - _date2.getFullYear() - 1;
+
+    default:
+      break;
+  }
 };
