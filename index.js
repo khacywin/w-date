@@ -285,7 +285,7 @@ const amountDateInMonth = (month, year = 1) => {
   if (
     month === 1 ||
     month === 3 ||
-    month === 4 ||
+    month === 5 ||
     month === 7 ||
     month === 8 ||
     month === 10 ||
